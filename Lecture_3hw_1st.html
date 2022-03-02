@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/journal/bootstrap.css"
+    />
+    <link rel="stylesheet" href="Lecture_3hw_1st.css" />
+    <title>Search shoes</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Shoebrowser</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="Lecture_3hw_2nd.html" class="nav-link">View All Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Find random shoe</a>
+              </li>
+            </ul>
+          </div>
+          <div class="test">
+            <form class="d-flex">
+              <input
+                class="form-control me-sm-2"
+                type="text"
+                placeholder="Search"
+              />
+              <button type="button" class="btn btn-info">
+                <img
+                  src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"
+                />
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--End of Nav-->
+    <div class="container-fluid">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              id="coverimage"
+              src="https://www.itl.cat/pngfile/big/119-1194281_white-sneakers-wallpaper-high-quality-resolution-jordan-shoes.png"
+              alt="First slide"
+            />
+            <div class="captionforcover">
+              <div class="carousel-caption">
+                <h1 class="text-danger">Browse for shoes</h1>
+              </div>
+              <form class="d-flex">
+                <input
+                  class="form-control me-sm-2"
+                  type="text"
+                  placeholder="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="text-center">
+          <button type="button" class="btn btn-warning text-dark">
+            <a href="Lecture_3hw_2nd.html">View all shoes&#8594;</a>
+          </button>
+          <div class="about_text">
+            Find whatever shoes you may be searching for. Think of it as google
+            but for shoes. You can find all the shoes you love <br />
+            here and shoes that you may not even have known until browsing our
+            website.
+          </div>
+          <div class="copyright-text">All rights reserved &copy;</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <!--Script files-->
+  <script
+    src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  ></script>
+</html>
