@@ -1,2 +1,2 @@
-console.log("Hello there")
+console.log("Hello there");
 document.getElementById("print").innerHTML = "Oh....hello there";
