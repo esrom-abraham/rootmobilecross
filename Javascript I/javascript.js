@@ -17,10 +17,11 @@ var first = prompt("Say something.................................'hello' ");
 
 while (newnum === 7) {
   if (first === "hello") {
-    alert(
-      "Wow you're pretty smart. For that, here's my social security number...1234 56 7891"
-    );
-  } else {
+    alert("Wow you're pretty smart. For that, here's my social security number...1234 56 7891");
+    break;
+  } 
+  
+  else {
     prompt("Sorry try again");
   }
 }
