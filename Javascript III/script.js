@@ -20,8 +20,8 @@ function draw() {
   startdraw.fillStyle = "green";
   startdraw.fillRect(0, 0, canvas.width, canvas.height);
 
-  startdraw.fillStyle = "rgba(255, 0, 0)";
-  startdraw.fillRect(0, increment, 100, 100);
+  startdraw.fillStyle = "rgba(176, 38, 255)";
+  startdraw.fillRect(0, increment, 200, 200);
 
   startdraw.fillStyle = "rgba(173, 224, 98)";
   startdraw.fillRect(increment, 0, 110, 110);
